@@ -5,7 +5,7 @@ namespace PlanetExpress.Models
 {
   public class Parcel
   {
-    public string Desciption { get; set; }
+    public string Description { get; set; }
     public int Weight { get; set; }
     public int Height { get; set; }
     public int Length { get; set; }
@@ -17,7 +17,7 @@ namespace PlanetExpress.Models
 
     public Parcel(string description, int weight, int height, int length, int width)
     {
-      Desciption = desciption;
+      Description = description;
       Weight = weight;
       Height = height;
       Length = length;
@@ -50,12 +50,12 @@ namespace PlanetExpress.Models
         return 10000;
       }
     }
-    public decimal GetCost()
+    public decimal GetPrice()
     {
       return _cost;
     }
 
-    public List<Parcel> GetAll()
+    public static List<Parcel> GetAll()
     {
       return _instances;
     }

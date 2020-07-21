@@ -10,8 +10,8 @@
   <h4>Good news everyone we have parcels!</h4>
   @foreach (Parcel item in Model)
   {
-    <li> inchs @item.Height, inchs @item.Width, inchs @item.Length, Lb @item.Weight, $@item.GetPrice, @item.Description, Vol. @item.GetVolume</li>
+    <li> inchs @item.Height, inchs @item.Width, inchs @item.Length, Lb @item.Weight, $@item.GetPrice(), @item.Description, Vol. @item.GetVolume()</li>
   }
 
 </ul>
-<a href="/Cars/new">Add a new Parcel.</a>
+<a href="/Parcels/new">Add a new Parcel.</a>

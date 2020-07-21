@@ -4,20 +4,20 @@ using System.Collections.Generic;
 
 namespace PlanetExpress.Controllers
 {
-  public class ParcelController : Controller
+  public class ParcelsController : Controller
   {
-    [HttpGet("/Parcel")]
+    [HttpGet("/Parcels")]
     public ActionResult Index()
     {
       List<Parcel> AllParcel = Parcel.GetAll();
       return View(AllParcel);
     }
-    [HttpGet("/Parcel/new")]
+    [HttpGet("/Parcels/new")]
     public ActionResult CreateForms()
     {
       return View();
     }
-    [HttpPost("/Parcel")]
+    [HttpPost("/Parcels")]
     public ActionResult Create(string description, int height, int length, int width, int weight)
     {
       Parcel myParcels = new Parcel(description, weight, height, length, width);
