@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ProjectName
+namespace PlanetExpress
 {
   public class Startup
   {
@@ -37,5 +37,6 @@ namespace ProjectName
       {
         await context.Response.WriteAsync("Hello World!");
       });
+    }
   }
 }
