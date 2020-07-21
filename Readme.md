@@ -1,13 +1,13 @@
-# _new template_
+# _Planet Express_
 
-#### _{Brief description of application}, 2020 ver 1.0_
+#### _Created a MVC Application with Razor for Parcels going out on the planet express, 2020 ver 1.0_
 
-#### By _Ian Gregg & (Co author)_
-[new-template-for-code-C]()
+#### By _Ian Gregg & Peter Grimm_
+[Planet-Express](https://github.com/oldgregg89/Planet-Express-solution)
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Created a MVC Application with Razor for Parcels going out on the planet express_
 
 ## Setup/Installation Requirements
 
@@ -27,9 +27,7 @@ __
 | Behavior    | Input | Output |
 | :---------- | ----- | -----: |
 | behavior 1 |  |  |
-| behavior 2 |  |  |
-| behavior 3 |  |  |
-| behavior 4 |  |  |
+
 
 
 ## Known Bugs
@@ -38,7 +36,9 @@ _No known bugs_
 
 ## Support and contact details
 
-_Contact Ian Gregg: <iangregg188@gmail.com>_
+_Contact Ian Gregg: <iangregg188@gmail.com>
+or
+Peter Grimm <pagrimm@gmail.com>_
 
 ## Technologies Used
 
@@ -46,7 +46,7 @@ _The Technologies used in the making of this software was Chrome browser, Visual
 
 ### License
 
-Copyright (c) 2020 **_Ian Gregg_**
+Copyright (c) 2020 **_Ian Gregg & Peter Grimm_**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
